@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'android';
+    src: url('fontes/idroid.otf')format('truetype');;
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(#015958,#0FC2C0);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font:bolder;
+    font-size: 1em;
+}
+header{
+    background-image: linear-gradient(#015958,#000000);
+    margin: 0px;
+    padding: 5px;
+    box-shadow: 4px 2px 2px 1px rgba(0, 0, 0, 0.507);
+    border-radius: 4px 4px 4px 4px;
+}
+nav > a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+nav > a:hover{
+    background-color: #0CABA8;
+    color: rgb(0, 70, 70);
+    text-decoration: none;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+header > p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.24);
+}
+h2{
+    color:#023535 ;
+    background-image: linear-gradient(to 
+    right,#0fc2bf62,white);
+    font-family: 'android';
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 5px;
+}
+section > h1{
+    color: #023535;
+    font-family: 'android';
+    padding: 5px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto;
+    padding: 10px;
+}
+#aprender{
+    background-color: #015958;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 7px 7px 0px 0px ;
+}
+#Homen_e_Android{
+    text-align: center;
+}
+#video{
+    background-color: #0CABA8;
+    text-align: center;
+    padding: 12.5em;
+}
+#video>iframe{
+    position: absolute;
+    top: 93em;
+    left: 23%;
+    width: 55%;
+    height: 60%;
+}
+#extra{
+    background-color: #0e9b997e;
+    border-radius: 7px 7px 0px 0px ;
+    margin: 5px;
+    padding: 5px;
+}
+footer{
+    background-color: #001414;
+    padding: 0px;
+    margin: 0px;
+}
+footer>p{
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin: 5px 0px 5px 0px;
+}
