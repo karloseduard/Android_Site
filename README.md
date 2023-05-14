@@ -1,3 +1,3 @@
 # Android_Site
- Meu primeiro site
-Só com HTLM e CSS
+Esse foi o meu primeiro site
+Feito só com HTLM e CSS no dia  20 de agosto de 2022
